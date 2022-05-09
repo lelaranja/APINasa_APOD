@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./mediaQ.css">
+    <title>Apod NASA</title>
+</head>
+
+<body>
+
+    <main>
+        <h1 class="tit1">Uma foto do espaço por dia</h1>
+        <p class="tit2">by NASA</p>
+        <p class="tit3">Você poderá selecionar uma data aleatória entre <mark
+                style="background-color:salmon; color:lightyellow;">julho de 1995 até hoje</mark>, e irá receber uma
+            mídia vindo
+            diretamente da NASA, com uma breve descrição.</p>
+        <br>
+        <h2>Digite a data que gostaria de consultar:</h2>
+        <div class="data">
+            <input type="date" min="1995-07-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" id="data">
+            <input type="submit" value="Enviar" id="submit">
+        </div>
+        <br>
+        <h3 id="tituloImg"></h3>
+        <iframe width="420" height="315" src="" id="vidYT"></iframe>
+        <img id="resultImg" class='imagem' src="">
+        <br>
+        <strong>
+            <p class='legFoto' id="explicacao"></p>
+        </strong>
+    </main>
+    <footer class="rodape">
+        <a href="https://github.com/lelaranja"><img src="./img/git.png" alt="logo git" class="gitHub"></a>
+        <div class="txtFooter">
+            <b>
+                <p>Projeto para fins educacionais</p>
+            </b>
+            <b>
+                <p>Todos os direitos reservados</p>
+            </b>
+            <b>
+                <p>Letícia Jardim Laranja</p>
+            </b>
+        </div>
+        <a href="https://www.linkedin.com/in/leticialaranja/"><img src="./img/linkedin.png" alt="logo linkedin"
+                class="linkeDin"></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

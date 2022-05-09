@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+    }
+
+    .tit1 {
+        font-size: 1.3em;
+    }
+
+    .tit2 {
+        font-size: 1.3em;
+    }
+
+    .tit3 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    input[type=submit] {
+        width: 4em;
+    }
+
+    .legFoto{
+        font-size: 0.8em;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .gitHub{
+        margin-right: 2em;
+    }
+    .linkeDin{
+        margin-left: 2em;
+    }
+    .imagem{
+        width: 200px;
+    }
+}
