@@ -43,11 +43,35 @@ input {
     justify-content: center;
     align-items: center;
 }
-
-input.submit {
+input[type=submit] {
+    background-color: #e63946;
+    border: none;
     width: 5em;
-}
-
+    color: #f1faee;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 0.85em;
+    font-weight: 600;
+    box-shadow: black;
+    box-shadow: 3px 3px #780000;
+    border-radius: 0.5em;
+  }
+  input[type=submit].btnToday {
+    background-color: #e63946;
+    border: none;
+    width: 15em;
+    color: #f1faee;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 0.85em;
+    font-weight: 600;
+    box-shadow: black;
+    box-shadow: 3px 3px #780000;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+  }
+  input[type=submit]:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 .tit1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 3em;
@@ -116,6 +140,7 @@ footer {
     align-items: center;
     font-family: 'Electrolize', sans-serif;
     font-size: 0.8em;
+    position: relative;
     color: black;
     text-shadow: 2px 2px 2px white;
     margin-top: 0.8em;
